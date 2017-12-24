@@ -76,9 +76,4 @@ Order make_order(int nr_items, int id);
 void * thread_function();
 void * waiters_thread();
 
-Order initialize_order();
-Order copy_order(Order * tmp);
-
-void funct();
-
 #endif
